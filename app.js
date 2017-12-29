@@ -2,7 +2,7 @@ console.log("Ready...");
 
 let count = 0;
 let maxCount = 500;
-let state = 'NJ';
+let state = 'CA';
 
 let lat, lng;
 let latLow, latUpper, lngLow, lngUpper;
@@ -19,17 +19,41 @@ var driver = new webdriver.Builder()
 
 
 switch(state){
+  case 'CA':
+    latLow = 32.709;
+    latUpper = 42.013;
+    lngLow = -124.69;
+    lngUpper = -114.146;
+    break;
+  case 'CT':
+    latLow = 40.97;
+    latUpper = 42.103;
+    lngLow = -73.77;
+    lngUpper = -71.75;
+    break;
   case 'NJ':
     latLow = 38.83;
     latUpper = 41.42;
     lngLow = -75.72;
     lngUpper = -73.83;
     break;
-  case 'CT':
-    latLow = 40.97;
-    latUpper = 42.103;
-    lngLow = -71.75;
-    lngUpper = -73.77;
+  case 'NV':
+    latLow = 34.05;
+    latUpper = 42.05;
+    lngLow = -120.105;
+    lngUpper = -113.95;
+    break;
+  case 'NY':
+    latLow = 40.432;
+    latUpper = 45.021;
+    lngLow = -80.1222;
+    lngUpper = -71.5197;
+    break;
+  case 'TX':
+    latLow = 25.59;
+    latUpper = 36.659;
+    lngLow = -106.66;
+    lngUpper = -93.39;
     break;
   default:
     console.log('No coordinates for selected state');
