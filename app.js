@@ -1,8 +1,8 @@
 console.log("Ready...");
 
 let count = 0;
-let maxCount = 500;
-let state = 'CA';
+let maxCount = 1000;
+let state = 'NY';
 
 let lat, lng;
 let latLow, latUpper, lngLow, lngUpper;
@@ -20,7 +20,7 @@ var driver = new webdriver.Builder()
 
 switch(state){
   case 'CA':
-    latLow = 32.709;
+    latLow = 32.3;
     latUpper = 42.013;
     lngLow = -124.69;
     lngUpper = -114.146;
