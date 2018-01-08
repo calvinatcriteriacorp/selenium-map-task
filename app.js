@@ -31,6 +31,18 @@ switch(state){
     lngLow = -73.77;
     lngUpper = -71.75;
     break;
+  case 'FL':
+    latLow = 24.331;
+    latUpper = 31.331;
+    lngLow = -87.758;
+    lngUpper = -79.56;
+    break;
+  case 'IL':
+    latLow = 36.925;
+    latUpper = 42.514;
+    lngLow = -91.838;
+    lngUpper = -87.44;
+    break;
   case 'NJ':
     latLow = 38.83;
     latUpper = 41.42;
@@ -54,6 +66,12 @@ switch(state){
     latUpper = 36.659;
     lngLow = -106.66;
     lngUpper = -93.39;
+    break;
+  case 'PA':
+    latLow = 39.715;
+    latUpper = 42.248;
+    lngLow = -80.533;
+    lngUpper = -74.76;
     break;
   default:
     console.log('No coordinates for selected state');
