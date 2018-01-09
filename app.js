@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 console.log("Ready...");
 
 let count = 0;
