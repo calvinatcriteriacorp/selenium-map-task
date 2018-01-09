@@ -1,8 +1,8 @@
 console.log("Ready...");
 
 let count = 0;
-let maxCount = 1000;
-let state = 'NY';
+let maxCount = process.env.MAX_COUNT;
+let state = process.env.STATE;
 
 let lat, lng;
 let latLow, latUpper, lngLow, lngUpper;
