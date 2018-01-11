@@ -21,6 +21,168 @@ var driver = new webdriver.Builder()
 
 
 switch(state){
+  case 'GA':
+    latLow = 30.3556;
+    latUpper = 35.0007;
+    lngLow = -85.6052;
+    lngUpper = -80.7514;
+    break;
+  case 'VA':
+    latLow = 36.5408;
+    latUpper = 39.466;
+    lngLow = -83.6754;
+    lngUpper = -75.1664;
+    break;
+  case 'MA':
+    latLow = 41.1871;
+    latUpper = 42.8868;
+    lngLow = -73.5081;
+    lngUpper = -69.8589;
+    break;
+  case 'OH':
+    latLow = 38.4034;
+    latUpper = 42.3271;
+    lngLow = -84.8203;
+    lngUpper = -80.5182;
+    break;
+  case 'NC':
+    latLow = 33.7529;
+    latUpper = 36.5882;
+    lngLow = -84.3219;
+    lngUpper = -75.4001;
+    break;
+  case 'WA':
+    latLow = 45.5435;
+    latUpper = 49.0024;
+    lngLow = -124.849;
+    lngUpper = -116.9156;
+    break;
+  case 'MI':
+    latLow = 41.7;
+    latUpper = 48.31;
+    lngLow = -90.42;
+    lngUpper = -82.12;
+    break;
+  case 'CO':
+    latLow = 36.9924;
+    latUpper = 41.0034;
+    lngLow = -109.0603;
+    lngUpper = -102.0409;
+    break;
+  case 'MD':
+    latLow = 37.8866;
+    latUpper = 39.723;
+    lngLow = -79.4877;
+    lngUpper = -74.9863;
+    break;
+  case 'TN':
+    latLow = 34.9829;
+    latUpper = 36.6781;
+    lngLow = -90.3103;
+    lngUpper = -81.6469;
+    break;
+  case 'AZ':
+    latLow = 31.3322;
+    latUpper = 37.0043;
+    lngLow = -114.8166;
+    lngUpper = -109.0452;
+    break;
+  case 'IN':
+    latLow = 37.7717;
+    latUpper = 41.7614;
+    lngLow = -88.0979;
+    lngUpper = -84.7847;
+    break;
+  case 'MN':
+    latLow = 43.5;
+    latUpper = 49.38;
+    lngLow = -97.24;
+    lngUpper = -89.48;
+    break;
+  case 'OR':
+    latLow = 41.9918;
+    latUpper = 46.2991;
+    lngLow = -124.7035;
+    lngUpper = -116.4633;
+    break;
+  case 'MO':
+    latLow = 35.9957;
+    latUpper = 40.6136;
+    lngLow = -95.7747;
+    lngUpper = -89.0995;
+    break;
+  case 'WI':
+    latLow = 42.4917;
+    latUpper = 47.3098;
+    lngLow = -92.8894;
+    lngUpper = -86.2495;
+    break;
+  case 'SC':
+    latLow = 32.0335;
+    latUpper = -78.4993;
+    lngLow = -83.3539;
+    lngUpper = 35.2155;
+    break;
+  case 'KY':
+    latLow = 36.4971;
+    latUpper = 39.1475;
+    lngLow = -89.5715;
+    lngUpper = -81.965;
+    break;
+  case 'UT':
+    latLow = 36.9979;
+    latUpper = 42.0016;
+    lngLow = -114.053;
+    lngUpper = -109.0411;
+    break;
+  case 'LA':
+    latLow = 28.8551;
+    latUpper = 33.0195;
+    lngLow = -94.0434;
+    lngUpper = -88.7584;
+    break;
+  case 'AL':
+    latLow = 30.1444;
+    latUpper = 35.008;
+    lngLow = -88.4732;
+    lngUpper = -84.8882;
+    break;
+  case 'OK':
+    latLow = 33.6158;
+    latUpper = 37.0023;
+    lngLow = -103.0025;
+    lngUpper = -94.4307;
+    break;
+  case 'IA':
+    latLow = 40.3754;
+    latUpper = 43.5012;
+    lngLow = -96.6395;
+    lngUpper = -90.1401;
+    break;
+  case 'KS':
+    latLow = 36.993;
+    latUpper = 40.0045;
+    lngLow = -102.0518;
+    lngUpper = -94.5884;
+    break;
+  case 'AR':
+    latLow = 33.0041;
+    latUpper = 36.4997;
+    lngLow = -94.6179;
+    lngUpper = -89.6448;
+    break;
+  case 'MS':
+    latLow = 30.1461;
+    latUpper = 34.9961;
+    lngLow = -91.655;
+    lngUpper = -88.0979;
+    break;
+  case 'WV':
+    latLow = 40.9947;
+    latUpper = 45.0059;
+    lngLow = -111.0569;
+    lngUpper = -104.0522;
+    break;
   case 'CA':
     latLow = 32.3;
     latUpper = 42.013;
