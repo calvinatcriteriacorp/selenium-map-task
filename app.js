@@ -19,7 +19,7 @@ var driver = new webdriver.Builder()
 
     //driver.manage().window().maximize();
 
-
+// http://boundingbox.klokantech.com/
 switch(state){
   case 'GA':
     latLow = 30.3556;
@@ -119,9 +119,9 @@ switch(state){
     break;
   case 'SC':
     latLow = 32.0335;
-    latUpper = -78.4993;
+    latUpper = 35.2155;
     lngLow = -83.3539;
-    lngUpper = 35.2155;
+    lngUpper = -78.4993;
     break;
   case 'KY':
     latLow = 36.4971;
