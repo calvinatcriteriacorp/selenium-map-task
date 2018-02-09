@@ -184,10 +184,10 @@ switch(state){
     lngUpper = -88.0979;
     break;
   case 'WV':
-    latLow = 40.9947;
-    latUpper = 45.0059;
-    lngLow = -111.0569;
-    lngUpper = -104.0522;
+    latLow = 37.2015;
+    latUpper = 40.6388;
+    lngLow = -82.6444;
+    lngUpper = -77.719;
     break;
   case 'CA':
     latLow = 32.3;
@@ -242,6 +242,90 @@ switch(state){
     latUpper = 42.248;
     lngLow = -80.533;
     lngUpper = -74.76;
+    break;
+  case 'RI':
+    latLow = 41.0958;
+    latUpper = 42.0188;
+    lngLow = -71.9073;
+    lngUpper = -71.0886;
+    break;
+  case 'NE':
+    latLow = 39.9999;
+    latUpper = 43.0017;
+    lngLow = -104.0535;
+    lngUpper = -95.3083;
+    break;
+  case 'ID':
+    latLow = 41.99;
+    latUpper = 49.0;
+    lngLow = -117.24;
+    lngUpper = -111.04;
+    break;
+  case 'NH':
+    latLow = 42.697;
+    latUpper = 45.3055;
+    lngLow = -72.5572;
+    lngUpper = -70.5751;
+    break;
+  case 'HI':
+    latLow = 18.87;
+    latUpper = 28.52;
+    lngLow = -178.44;
+    lngUpper = -154.76;
+    break;
+  case 'ME':
+    latLow = 42.9171;
+    latUpper = 47.4597;
+    lngLow = -71.0843;
+    lngUpper = -66.8851;
+    break;
+  case 'NM':
+    latLow = 31.3322;
+    latUpper = 37.0003;
+    lngLow = -109.0502;
+    lngUpper = -103.002;
+    break;
+  case 'DE':
+    latLow = 38.451;
+    latUpper = 39.8395;
+    lngLow = -75.7891;
+    lngUpper = -74.9842;
+    break;
+  case 'MT':
+    latLow = 44.3582;
+    latUpper = 49.0014;
+    lngLow = -116.05;
+    lngUpper = -104.0396;
+    break;
+  case 'VT':
+    latLow = 42.7268;
+    latUpper = 45.0167;
+    lngLow = -73.4379;
+    lngUpper = -71.465;
+    break;
+  case 'ND':
+    latLow = 45.9351;
+    latUpper = 49.0007;
+    lngLow = -104.05;
+    lngUpper = -96.5545;
+    break;
+  case 'SD':
+    latLow = 42.4797;
+    latUpper = 45.9457;
+    lngLow = -104.0577;
+    lngUpper = -96.4366;
+    break;
+  case 'SD':
+    latLow = 40.9947;
+    latUpper = 45.0059;
+    lngLow = -111.0569;
+    lngUpper = -104.0522;
+    break;
+  case 'AK':
+    latLow = 51.18;
+    latUpper = 71.44;
+    lngLow = -179.56;
+    lngUpper = -129.98;
     break;
   default:
     console.log('No coordinates for selected state');
