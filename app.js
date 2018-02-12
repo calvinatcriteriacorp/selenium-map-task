@@ -21,6 +21,12 @@ var driver = new webdriver.Builder()
 
 // http://boundingbox.klokantech.com/
 switch(state){
+  case 'WY':
+    latLow = 40.9947;
+    latUpper = 45.0059;
+    lngLow = -111.0569;
+    lngUpper = -104.0522;
+    break;
   case 'DC':
     latLow = 38.791645;
     latUpper = 38.995548;
